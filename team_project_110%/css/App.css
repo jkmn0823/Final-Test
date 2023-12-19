@@ -1,0 +1,41 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.background{
+    display: flex;
+    flex-direction: row;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 280px;
+}
+body{
+    background-image: url('../Image/XP-HD-Wallpapers-022.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat : no-repeat;
+    overflow: hidden;
+}
+.cmdicon{
+    height: 100px;
+    width: 100px;
+    background-image: url('../Image/Cmdicon.png');
+    background-size: cover;
+    background-repeat : no-repeat;
+}
+.cmdcover{
+    height: 105px;
+    width: 105px;
+    position: fixed;
+    display: flex;
+    padding-right: 32px;
+}
+.cmdcover:hover{
+    background-color: lightgray;
+    opacity: 0.5;
+}
